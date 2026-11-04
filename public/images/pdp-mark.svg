@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">PDP</title>
+  <circle cx="60" cy="60" r="56" fill="#fff" stroke="#e31c25" stroke-width="8"/>
+  <circle cx="60" cy="60" r="46" fill="#fff" stroke="#08753c" stroke-width="7"/>
+  <path d="M25 53c8-18 22-28 35-28s27 10 35 28H25Z" fill="#e31c25"/>
+  <path d="M25 53h35V25C47 25 33 35 25 53Z" fill="#08753c"/>
+  <path d="M60 53v35c0 8-4 12-12 12" fill="none" stroke="#181818" stroke-width="6" stroke-linecap="round"/>
+  <text x="60" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#111">PDP</text>
+</svg>

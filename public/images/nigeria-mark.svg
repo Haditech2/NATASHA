@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Nigeria</title>
+  <circle cx="60" cy="60" r="56" fill="#fff" stroke="#08753c" stroke-width="7"/>
+  <path d="M28 31h21v58H28zM71 31h21v58H71z" fill="#098a4b"/>
+  <circle cx="60" cy="60" r="13" fill="#fff" stroke="#d9d9d9" stroke-width="2"/>
+  <path d="M60 48l3.2 7.2 7.8.8-5.9 5.2 1.7 7.6-6.8-4-6.8 4 1.7-7.6L49 56l7.8-.8z" fill="#c32026"/>
+</svg>
