@@ -127,7 +127,7 @@ function drawPoster(ctx, size, template, photo, transform, details) {
   ctx.font = `500 ${Math.round(38 * ratio)}px Arial, sans-serif`
   ctx.textAlign = 'left'
   ctx.textBaseline = 'middle'
-  ctx.fillText('Create yours · Natasha 2027', 103 * ratio, 1865 * ratio)
+  ctx.fillText('https://natasha-six.vercel.app', 103 * ratio, 1865 * ratio)
 }
 
 export default function Generate() {
