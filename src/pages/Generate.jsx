@@ -120,6 +120,21 @@ function drawPoster(ctx, size, template, photo, transform, details) {
     ctx.restore()
   }
 
+  // Correct the surname printed on the supplied artwork.
+  ctx.fillStyle = '#f5f7f6'
+  ctx.fillRect(200 * ratio, 1490 * ratio, 650 * ratio, 100 * ratio)
+  ctx.fillStyle = '#111111'
+  ctx.textAlign = 'center'
+  ctx.textBaseline = 'middle'
+  const surname = 'UDUAGHAN'
+  let surnameSize = 105
+  ctx.font = `900 ${Math.round(surnameSize * ratio)}px Arial, sans-serif`
+  while (ctx.measureText(surname).width > 700 * ratio && surnameSize > 40) {
+    surnameSize -= 2
+    ctx.font = `900 ${Math.round(surnameSize * ratio)}px Arial, sans-serif`
+  }
+  ctx.fillText(surname, 522 * ratio, 1540 * ratio)
+
   // Correct the candidate line printed on the supplied artwork.
   ctx.fillStyle = '#f5f7f6'
   ctx.fillRect(140 * ratio, 1748 * ratio, 740 * ratio, 70 * ratio)
